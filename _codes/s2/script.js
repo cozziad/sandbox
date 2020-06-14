@@ -10,8 +10,8 @@ var timerRunning = false;
 
 // Add leading zero to numbers 9 or below (purely for aesthetics):
 function leadingZero(time) {
-    if (time < 10) return "0" + time;
-    else return String(time);
+    if (time < 10) { return "0" + time; }
+    else { return String(time); }
 }
 
 // Run a standard minute/second/hundredths timer:
